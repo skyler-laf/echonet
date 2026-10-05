@@ -95,7 +95,3 @@ This script combines the results from segmentation output in `size.csv` and the 
 
 The full set of hyperparameter sweeps from the paper can be run via `run_experiments.sh`.
 In particular, we choose between pretrained and random initialization for the weights, the model (selected from `r2plus1d_18`, `r3d_18`, and `mc3_18`), the length of the video (1, 4, 8, 16, 32, 64, and 96 frames), and the sampling period (1, 2, 4, 6, and 8 frames).
-
-
-
-xxxxxxxxxxxxxxxxxxxx
